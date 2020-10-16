@@ -5,8 +5,6 @@ import brain from 'brain.js'
 // input 1 0, output 1
 // input 1 1, output 0
 
-// console.log(brain)
-
 const net = new brain.NeuralNetwork({ hiddenLayers: [3] });
 
 const trainingData = [
